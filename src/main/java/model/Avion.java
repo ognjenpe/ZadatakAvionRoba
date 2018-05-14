@@ -32,8 +32,17 @@ public class Avion {
         return oznaka;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public void setOznaka(String oznaka) {
         this.oznaka = oznaka;
+
     }
 
     public int getRasponKrila() {
